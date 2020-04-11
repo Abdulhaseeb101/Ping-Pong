@@ -1,0 +1,32 @@
+ 				Ping Pong
+
+Properties and methods used from Turtle library:
+
+	1. M.turtle.Screen() - Creates a blank window.
+	2. P.title() - Sets titles for the window
+	3. P.bgcolor() - Sets bgcolor.
+	4. P.setup() - It takes 2 args(width & height)
+	5. P.tracer() - With arg as 0 enables manual updating
+	6. P.update() - Updates window.
+	7. M.turtle.Turtle() - Creates a turtle object.
+	8. p.speed() - Adjusts the speed of the animation 0 being fastest.
+	9. P.shape() - Declares predefined shapes.
+	10. P.color() - Adjusts the color
+	11. P.penup() - Disables writing.
+	12. P.goto() - Specifies coordinates for turtle object.
+	13. P.shapesize() - Stretches shape with args stretch_wid and stretch_len
+	14. P.ycor() - Returns Y cordinates of turtle object.
+	15. P.sety(y) - Sets Y cor for turtle obj.
+	16. P.listen() - Turtle library starts listening for key presses.
+	17 P.onkeypress(function(), key) - Listens for keypress and calls a function
+
+
+Steps:
+__________
+
+	1. Setup the game window
+	2. Create a game loop
+	3. Create paddles
+	4. Create the ball
+	5. Gives movement to the paddles
+	6. Give ball movement
